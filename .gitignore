@@ -43,3 +43,66 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter
+**/android/**/gradle-wrapper.jar
+**/ios/.generated/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+**/android/**/GeneratedPluginRegistrant.java
+**/android/**/gradlew
+**/android/**/gradlew.bat
+**/android/**/local.properties
+**/android/**/GeneratedPluginRegistrant.kt
+
+# Builds
+build/
+**/android/app/build/
+**/ios/build/
+
+# Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Firebase
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+
+# Debug files
+*.apk
+*.aab
+*.jar
+*.class
+
+# Logs
+*.log
